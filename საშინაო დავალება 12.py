@@ -14,7 +14,7 @@ def unique_dict(dict1):
 original_dict = {'a': 1, 'b': 2, 'c': 1, 'd': 3, 'e': 2}
 result = unique_dict(original_dict)
 
-# print(result)
+print(result)
 
 "2. დაწერე ფუნქცია რომელიც მიიღებს ლექსიკონს და შეამოწმებს ცარიელია თუ არა ის (დააბრუნებს True თუ ცარიელია ან False_ს თუ არაა ცარიელი.)"
 
@@ -30,8 +30,8 @@ result = check_dict(my_dict)
 my_dict1 = { }
 result1 = check_dict(my_dict1)
 
-# print(result)
-# print(result1)
+print(result)
+print(result1)
 
 """3. დაწერე ფუნქცია რომელიც მიიღებს სტრიქონის ტიპის მონაცემს, შექმნის მისგან ლექსიკონს და დააბრუნებს. (ლექსიკონის გასაღები სტრიქონში არსებული სიმბოლოებია, მნიშვნელობები კი განმეორების რაოდენობა. 
 მაგ: 'w3schools'
@@ -51,7 +51,7 @@ def create_dict(dict3):
 user_input = str(input("Enter a string: "))
 result_dict = create_dict(user_input)
 
-# print(result_dict)
+print(result_dict)
 
 "4. დაწერე ფუნქცია რომელიც მიიღებს ლექსიკონს და დააბრუნებს  ერთ სიაში გაერთიანებულ key, value წყვილებს."
 
@@ -61,4 +61,4 @@ def dict_to_list(dict4):
 my_dict = {'Name': 'Tatia', 'Age': 16, 'Class': 11}
 result = dict_to_list(my_dict)
 
-# print(result)
+print(result)
